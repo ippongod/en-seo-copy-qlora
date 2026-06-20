@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Trained on Colab and downloaded separately; never committed
+seo-qlora-adapter/
+outputs/
+checkpoints/
+*.zip
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db

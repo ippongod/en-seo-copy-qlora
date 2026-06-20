@@ -1,0 +1,8 @@
+# Pinned for reproducible QLoRA training on a free Colab T4.
+# torch is intentionally NOT pinned: use the CUDA build Colab already provides.
+transformers==4.46.3
+trl==0.12.2
+peft==0.13.2
+bitsandbytes==0.44.1
+accelerate==1.1.1
+datasets==3.1.0
