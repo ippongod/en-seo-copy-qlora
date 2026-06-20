@@ -1,0 +1,20 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "n_test": 33,
+  "base": {
+    "label": "base",
+    "n": 33,
+    "parse_success_pct": 100.0,
+    "title_le60_pct": 60.6,
+    "meta_le155_pct": 60.6,
+    "keyword_inclusion_pct": 97.0
+  },
+  "fine_tuned": {
+    "label": "fine-tuned",
+    "n": 33,
+    "parse_success_pct": 100.0,
+    "title_le60_pct": 93.9,
+    "meta_le155_pct": 97.0,
+    "keyword_inclusion_pct": 97.0
+  }
+}

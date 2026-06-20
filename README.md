@@ -100,8 +100,14 @@ python scripts/infer.py \
 ## Results
 
 <!--RESULTS_START-->
-_Run `scripts/eval.py` on Colab, then `scripts/fill_results.py`, to populate this
-table with real base-vs-fine-tuned numbers._
+_Held-out test set: 33 examples (seed=42). Base model: `Qwen/Qwen2.5-1.5B-Instruct`. Greedy decoding._
+
+| Metric | Base (no adapter) | Fine-tuned (QLoRA) |
+|---|---|---|
+| Valid JSON output | 100.0% | 100.0% |
+| Title <= 60 chars | 60.6% | 93.9% |
+| Meta <= 155 chars | 60.6% | 97.0% |
+| Keyword inclusion | 97.0% | 97.0% |
 <!--RESULTS_END-->
 
 ---
